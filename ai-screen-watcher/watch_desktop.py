@@ -30,6 +30,13 @@ def log(msg):
     with open(LOG, "a") as f:
         f.write(f"[{time.strftime('%F %T')}] {msg}\n\n")
 
+def current_prompt():
+    try:
+        t = open(os.path.join(WORKDIR, "prompt.txt")).read().strip()
+        return "Read the image file shot.jpg. " + t if t else PROMPT
+    except OSError:
+        return PROMPT
+
 def take_screenshot():
     """Returns a small grayscale thumbnail used only for change detection."""
     subprocess.run(["spectacle", "-b", "-n", "-f", "-o", RAW],
@@ -55,7 +62,7 @@ while True:
         else:
             last_small = small
             result = subprocess.run(
-                [CLAUDE, "-p", PROMPT, "--allowedTools", "Read"],
+                [CLAUDE, "-p", current_prompt(), "--allowedTools", "Read"],
                 capture_output=True, text=True, timeout=300,
                 cwd=WORKDIR, env=env)
             text = result.stdout.strip() or f"(no output) {result.stderr.strip()}"

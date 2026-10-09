@@ -1,0 +1,1 @@
+This image is a screenshot of my desktop. Respond in plain text with no markdown symbols. If text in a language other than English is visible, use these sections. LANGUAGE: which language it is. TRANSLATION: an English translation of the main visible text. NOTES: any idioms, tone, or ambiguities worth knowing. If everything visible is already in English, say so in one sentence.

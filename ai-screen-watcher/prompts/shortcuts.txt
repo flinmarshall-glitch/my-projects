@@ -1,0 +1,1 @@
+This image is a screenshot of my desktop. Respond in plain text with no markdown symbols. Help me work faster in whatever app is visible. Use these sections. APP: the app or site you see. SHORTCUTS: four keyboard shortcuts or features that fit what I'm doing right now, each with a one-line reason. HABIT: one workflow change that would save me time.
