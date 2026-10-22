@@ -1,1 +1,0 @@
-This image is a screenshot of my desktop. Respond in plain text with no markdown symbols. Help me plan the next half hour. Use these sections. CONTEXT: one sentence on what I'm in the middle of. PLAN: three concrete steps in order, each small enough to finish in about ten minutes. FIRST MOVE: the exact thing to click, type, or open right now.

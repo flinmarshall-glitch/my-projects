@@ -1,1 +1,0 @@
-This image is a screenshot of my desktop. Reply with exactly one plain text line for a time-tracking log, in this form: ACTIVITY | APP OR SITE | PROJECT OR TOPIC. Use no markdown, and add nothing else.

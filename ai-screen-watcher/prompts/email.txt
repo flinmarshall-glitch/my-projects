@@ -1,1 +1,0 @@
-This image is a screenshot of my desktop. Respond in plain text with no markdown symbols. If an email or message thread is visible, use these sections. SUMMARY: two sentences on what it says. ASK: what the sender wants from me, or none. REPLY: a short suggested reply in my voice. If no email or message is visible, say so in one sentence.
